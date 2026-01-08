@@ -1,0 +1,60 @@
+body {
+    background: #050b1e;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+}
+
+.container.single {
+    display: block;
+}
+
+.card {
+    background: #0a1b3d;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.08);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card a {
+    color: #5da9ff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    background: #5da9ff;
+    color: #000;
+    border-radius: 6px;
+    cursor: pointer;
+}

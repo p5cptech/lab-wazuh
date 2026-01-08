@@ -1,0 +1,194 @@
+/* ===== RESET ===== */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 40px;
+    background: radial-gradient(circle at top, #0a1b3d, #050b1e);
+    color: #ffffff;
+}
+
+/* ===== TITLE ===== */
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.container.single {
+    display: block;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: rgba(10, 20, 50, 0.95);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.6);
+}
+
+.card h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.card small {
+    color: #9fb3ff;
+    font-size: 12px;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #5da9ff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FORM ===== */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,.15);
+    background: #050b1e;
+    color: #ffffff;
+    outline: none;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #5da9ff;
+    box-shadow: 0 0 0 1px rgba(93,169,255,.4);
+}
+
+/* ===== BUTTON ===== */
+button {
+    background: linear-gradient(135deg, #5da9ff, #3f7cff);
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+/* ===== ACTION LINKS ===== */
+.action {
+    margin-top: 10px;
+}
+
+.action a {
+    margin-right: 10px;
+}
+
+/* ===== HR ===== */
+hr {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,.08);
+    margin: 20px 0;
+}
+
+/* ===== ALERT ===== */
+.alert {
+    background: rgba(93,169,255,.15);
+    border-left: 4px solid #5da9ff;
+    padding: 14px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+}
+
+
+/* ===== PAGE WRAPPER ===== */
+.page-wrapper {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+/* ===== CARD TITLE ===== */
+.card-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ===== FORM GROUP ===== */
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #9fb3ff;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,.15);
+    background: #050b1e;
+    color: #ffffff;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #5da9ff;
+    box-shadow: 0 0 0 1px rgba(93,169,255,.4);
+}
+
+/* ===== BUTTON ===== */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #5da9ff, #3f7cff);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000;
+}
+
+.btn-primary:hover {
+    opacity: .9;
+}
